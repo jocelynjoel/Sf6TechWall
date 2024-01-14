@@ -149,12 +149,15 @@
     </include_path>
   </component>
   <component name="ProjectId" id="2awp22mMyU9l53CUzC3Lr4l8288" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -182,7 +185,7 @@
       <workItem from="1705239286166" duration="2886000" />
       <workItem from="1705269277024" duration="303000" />
       <workItem from="1705269747554" duration="10000" />
-      <workItem from="1705269758319" duration="318000" />
+      <workItem from="1705269758319" duration="657000" />
     </task>
     <servers />
   </component>
@@ -211,5 +214,8 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

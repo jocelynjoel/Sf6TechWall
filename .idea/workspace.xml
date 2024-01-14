@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef276c28-28f0-45ff-b303-ec4f3ea1f6e4" name="Changes" comment="" />
+    <list default="true" id="ef276c28-28f0-45ff-b303-ec4f3ea1f6e4" name="Changes" comment="MAJ">
+      <change afterPath="$PROJECT_DIR$/.ddev/addon-metadata/phpmyadmin/manifest.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ddev/commands/host/phpmyadmin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ddev/docker-compose.phpmyadmin-norouter.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.ddev/docker-compose.phpmyadmin.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Controller/FirstController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/bundles.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/symfony.lock" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -165,14 +179,33 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker..ddev/.ddev-docker-compose-full.yaml.web: Compose Deployment">
     <configuration name="phpunit.xml.dist" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner scope="XML" />
       <method v="2" />
     </configuration>
+    <configuration name=".ddev/.ddev-docker-compose-full.yaml.web: Compose Deployment" type="docker-deploy" factoryName="docker-compose.yml" temporary="true" server-name="Docker">
+      <deployment type="docker-compose.yml">
+        <settings>
+          <option name="envFilePath" value="" />
+          <option name="services">
+            <list>
+              <option value="web" />
+            </list>
+          </option>
+          <option name="sourceFilePath" value=".ddev/.ddev-docker-compose-full.yaml" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker..ddev/.ddev-docker-compose-full.yaml.web: Compose Deployment" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -185,8 +218,18 @@
       <workItem from="1705239286166" duration="2886000" />
       <workItem from="1705269277024" duration="303000" />
       <workItem from="1705269747554" duration="10000" />
-      <workItem from="1705269758319" duration="657000" />
+      <workItem from="1705269758319" duration="835000" />
+      <workItem from="1705270600529" duration="12000" />
+      <workItem from="1705270666066" duration="4038000" />
     </task>
+    <task id="LOCAL-00001" summary="MAJ">
+      <created>1705270522098</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705270522098</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -217,5 +260,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="MAJ" />
+    <option name="LAST_COMMIT_MESSAGE" value="MAJ" />
   </component>
 </project>
